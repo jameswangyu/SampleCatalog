@@ -1,0 +1,7 @@
+﻿Product_ID,Product_Name,Product_Type,Unit_Of_Measure,Unit_Price,Discount_Percent
+1,Note Book,Paper,piece,2,0.2
+2,Printer Paper,Paper,package,15,0
+3,Pensil Eraser,Stationary,piece,12,0.15
+4,Foler,Paper,piece,5,1.5
+5,,Paper,,6,0.1
+6,Sticker notes,Paper,book,7,0
