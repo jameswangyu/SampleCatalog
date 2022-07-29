@@ -15,7 +15,10 @@ public class ValidationException extends Exception {
 			validationErrorMessage = fieldName + " Value is negative";
 			break;
 		case 4: 
-			validationErrorMessage = fieldName + " Value is greater than 100%";
+			validationErrorMessage = fieldName + " Value is not a percentage";
+			break;
+		case 5:
+			validationErrorMessage = fieldName + " value is not a number";
 			break;
 	    default:
 	    	validationErrorMessage = fieldName + " Unknown error";

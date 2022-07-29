@@ -3,8 +3,8 @@ package com.jwang;
 
 public class SampleCatalogDTO implements java.lang.Comparable<SampleCatalogDTO> {
 	private long productId;
-	private String productName;
-	private String productType;
+	private String description;
+	private String category;
 	private String unitOfMeasure;
 	private Double unitPrice;
 	private Double discountPercent;
@@ -15,17 +15,17 @@ public class SampleCatalogDTO implements java.lang.Comparable<SampleCatalogDTO> 
 	public void setProductId(long productId) {
 		this.productId = productId;
 	}
-	public String getProductName() {
-		return productName;
+	public String getDescription() {
+		return description;
 	}
-	public void setProductName(String productName) {
-		this.productName = productName;
+	public void setDescription(String description) {
+		this.description = description;
 	}
-	public String getProductType() {
-		return productType;
+	public String getCategory() {
+		return category;
 	}
-	public void setProductType(String productType) {
-		this.productType = productType;
+	public void setCategory(String category) {
+		this.category = category;
 	}
 	public String getUnitOfMeasure() {
 		return unitOfMeasure;
@@ -63,7 +63,7 @@ public class SampleCatalogDTO implements java.lang.Comparable<SampleCatalogDTO> 
 	}
 	
 	public String toString() {
-		return this.productId + " " + this.productName + " " + this.productType + " " + this.unitOfMeasure + " " 
+		return this.productId + " " + this.description + " " + this.category + " " + this.unitOfMeasure + " " 
 	                                + this.unitPrice + " " + this.discountPercent;
 	}
 }
